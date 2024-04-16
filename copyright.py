@@ -1,20 +1,7 @@
-import requests
-
-def download_image(url, save_path):
-    response = requests.get(url)
-    with open(save_path, 'wb') as f:
-        f.write(response.content)
-    print("هذا الكود بواسطة Bahaa Mahmoud TUT")
-
-# Example usage:
-url = "https://bahaamahmoud.com/wp-content/uploads/2024/04/thumbnail-2.jpg"
-save_path = "/content/TTS_BahaaMahmoudTUT/BahaaMahmoud.jpg"
-download_image(url, save_path)
 
 
-from IPython.display import Image, display, HTML
-display(Image("BahaaMahmoud.jpg", width=320))
 
+from IPython.display import display, HTML
 
-link = '<div style="direction: rtl; text-align: left;">✅&nbsp;<a href="https://www.youtube.com/channel/UCTQMuaUubjb4j0QKlg9NomQ" target="_blank">إضغط هنا</a>&nbsp;للمزيد من الشروحات علي قناتي. ✅</div>'
-display(HTML(link))
+copyrigh = '<div style="background-color: #dff2bf; border: 1px solid rgb(79, 138, 16); color: #4f8a10; padding: 10px;"><div class="separator" style="clear: both; direction: rtl; text-align: center;"><span style="font-family: arial; font-size: medium;">هذا الكود بواسطة Bahaa Mahmoud TUT</span></div><div class="separator" style="clear: both; direction: rtl; text-align: left;"><br /></div><div class="separator" style="clear: both; direction: rtl; text-align: left;"><a href="https://www.youtube.com/channel/UCTQMuaUubjb4j0QKlg9NomQ" style="margin-left: 1em; margin-right: 1em;" target="_blank"><img border="0" data-original-height="170" data-original-width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPtDh1Q5HSkuMzb0tFLJ1_EArRMWY4qyfUmhGNo3rSwhtlEgDulg0hz3RbRvDtElzFVnyBlC49Vi1zOzuWrjIAYqKX1nNVyp1in3nCgLJS04QOsb6mzDPP9HHuG_kbpNILJc619RQ4meIeYtkPWwIS0WN_NMnMzHKTYi04WdeBH5RfvQHN9meXMVbX_yM/s16000/copyright.jpg" /></a></div><div style="direction: rtl; text-align: left;"><br /></div><div style="direction: rtl; text-align: center;"><span style="font-family: arial; font-size: medium;">✅&nbsp;<a href="https://www.youtube.com/channel/UCTQMuaUubjb4j0QKlg9NomQ" target="_blank">إضغط هنا</a>&nbsp;للمزيد من الشروحات علي قناتي. ✅</span></div></div>'
+display(HTML(copyright))
