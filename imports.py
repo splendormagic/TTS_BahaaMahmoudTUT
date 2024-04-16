@@ -10,7 +10,7 @@ def download_image(url, save_path):
     response = requests.get(url)
     with open(save_path, 'wb') as f:
         f.write(response.content)
-    print("هذا الكود بواسطة Bahaa Mahmoud TUT")
+    
 
 # Example usage:
 url = "https://bahaamahmoud.com/wp-content/uploads/2024/04/thumbnail-2.jpg"
@@ -19,6 +19,8 @@ download_image(url, save_path)
 
 # Clear the current cell's output
 clear_output(wait=True)
+
+print("هذا الكود بواسطة Bahaa Mahmoud TUT")
 
 from IPython.display import Image, display, HTML
 display(Image("BahaaMahmoud.jpg", width=320))
