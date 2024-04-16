@@ -1,9 +1,10 @@
 from gtts import gTTS
 from pydub import AudioSegment
-from IPython.display import Audio
+from IPython.display import Audio, clear_output
 import requests
 
 
+#Copyright
 
 def download_image(url, save_path):
     response = requests.get(url)
@@ -16,6 +17,8 @@ url = "https://bahaamahmoud.com/wp-content/uploads/2024/04/thumbnail-2.jpg"
 save_path = "/content/TTS_BahaaMahmoudTUT/BahaaMahmoud.jpg"
 download_image(url, save_path)
 
+# Clear the current cell's output
+clear_output(wait=True)
 
 from IPython.display import Image, display, HTML
 display(Image("BahaaMahmoud.jpg", width=320))
