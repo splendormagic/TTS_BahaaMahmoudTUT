@@ -1,4 +1,4 @@
-# Text-to-Speech (TTS) Test
+# Text-to-Speech (TTS)
 
 This repository contains a simple text-to-speech (TTS) script written in Python using the gTTS library.
 
