@@ -6,7 +6,7 @@ def download_image(url, save_path):
 
 # Example usage:
 url = "https://bahaamahmoud.com/wp-content/uploads/2024/04/thumbnail-2.jpg"
-save_path = "BahaaMahmoud.jpg"
+save_path = "/content/TTS_BahaaMahmoudTUT/BahaaMahmoud.jpg"
 download_image(url, save_path)
 
 
