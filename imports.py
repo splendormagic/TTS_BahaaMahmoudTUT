@@ -23,7 +23,7 @@ clear_output(wait=True)
 print("هذا الكود بواسطة Bahaa Mahmoud TUT")
 
 from IPython.display import Image, display, HTML
-display(Image("BahaaMahmoud.jpg", width=320))
+display(Image("BahaaMahmoud.jpg", width=520))
 
 
 link = '<div style="direction: rtl; text-align: left;">✅&nbsp;<a href="https://www.youtube.com/channel/UCTQMuaUubjb4j0QKlg9NomQ" target="_blank">إضغط هنا</a>&nbsp;للمزيد من الشروحات علي قناتي. ✅</div>'
