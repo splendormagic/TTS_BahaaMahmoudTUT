@@ -13,7 +13,7 @@ def download_image(url, save_path):
     
 
 # Example usage:
-url = "https://bahaamahmoud.com/wp-content/uploads/2024/04/thumbnail-2.jpg"
+url = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVfrydE3PZ-mi0eBJv0IuGp8A-B-a_3Ol-0ZSE0Fd-6uAK-bnCG0l2qT304X1-OwB2SHSmjPeapELNMmRraAOhMwb9maPd-q2aP41iMKXF35Ro-uGbsRpt9jtbyI05CqCwUGCR1KgtLpfSDGSkKouaT2ftQakF2ieonnIg0_sA_ZzyD2eqOwcdr64TUU4/s16000/copyright.jpg"
 save_path = "/content/TTS_BahaaMahmoudTUT/BahaaMahmoud.jpg"
 download_image(url, save_path)
 
